@@ -7,7 +7,7 @@
 LinkedIn Model 
 
 
-# In[11]:
+# In[15]:
 
 
 import streamlit as st
@@ -16,7 +16,8 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
-get_ipython().system('pip install notebook')
+import os
+os.system("pip install notebook")
 
 # Load and clean the dataset
 data = pd.read_csv('social_media_usage.csv')
